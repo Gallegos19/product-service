@@ -13,6 +13,8 @@ pipeline {
         REMOTE_PATH = '/home/ubuntu/product-service'
     }
 
+
+
     stages {
         stage('Detect Branch') {
             steps {
